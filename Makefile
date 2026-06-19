@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -I../dynamic_array
-SRC = ply_visualizer.c ply_parser.c ../dynamic_array/dynarr.c
-TARGET = ply_visualizer
+SRC = visualizer.c parser.c ../utilities/dynarr.c
+TARGET = visualizer
 
 all: $(TARGET)
 
